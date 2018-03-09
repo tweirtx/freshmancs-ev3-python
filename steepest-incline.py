@@ -7,8 +7,7 @@ backMotor = ev3.LargeMotor('outB')
 rightMotor.stop_action = rightMotor.STOP_ACTION_BRAKE
 leftMotor.stop_action = leftMotor.STOP_ACTION_BRAKE
 backMotor.stop_action = leftMotor.STOP_ACTION_BRAKE
-rightMotor.polarity = rightMotor.POLARITY_INVERSED
-speed = 600
+speed = 1000
 print("Initialization complete!")
 while True:
     input("Press enter to start the motors ")
