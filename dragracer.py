@@ -10,14 +10,13 @@ print("Initialization complete!")
 
 input("Press enter to start")
 
-ramp_up_speed = 100
+ramp_up_speed = 300
 
 motor1.run_forever(speed_sp=ramp_up_speed)
 motor2.run_forever(speed_sp=ramp_up_speed)
 motor3.run_forever(speed_sp=ramp_up_speed)
 print("sleeping")
 sleep(0.1)
-input("Press enter")
 print("waking up")
 motor1.run_forever(speed_sp=1000)
 motor2.run_forever(speed_sp=1000)
